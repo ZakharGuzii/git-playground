@@ -64,6 +64,8 @@ while not is_game_over():
         errors += 1
         print(f"Oops :( No such word, you have {ERRORS_TO_LOSE - errors} lives left")
 
+print("By world")
+
 if errors == ERRORS_TO_LOSE:
     game_over_message()
 
